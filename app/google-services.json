@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "805072041815",
+    "project_id": "beer-diary-169400"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805072041815:android:9c10458a250eccfe",
+        "android_client_info": {
+          "package_name": "com.n.boone.beerdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805072041815-5ligrpf92hcoegjkq77kigglsflhemr3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805072041815-oghcc0jfma81tbut6n1khfnfh9v9lt36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.n.boone.beerdiary",
+            "certificate_hash": "7a840571f102819d7f238ecfcdbd90aedb70559c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOyqHZgrpWva3KOa2O-hwfYzQkc4PO61A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

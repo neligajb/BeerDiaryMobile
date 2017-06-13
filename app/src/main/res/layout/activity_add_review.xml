@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.n.boone.beerdiary.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beer: "
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/beer_content"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_line"
+            android:layout_marginLeft="57sp"
+            android:padding="10sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Style: "
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/style_content"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_line"
+            android:layout_marginLeft="54sp"
+            android:padding="10sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brewery: "
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/brewery_content"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_line"
+            android:layout_marginLeft="20sp"
+            android:padding="10sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating: "
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/rating_content"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_line"
+            android:layout_marginLeft="37sp"
+            android:padding="10sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/submit_review_button"
+        android:layout_width="240sp"
+        android:layout_height="wrap_content"
+        android:text="Add Review"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorGreen"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:textSize="22sp"/>
+
+
+</LinearLayout>
